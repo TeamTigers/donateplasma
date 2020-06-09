@@ -173,7 +173,9 @@ thead {
 
 @media only screen and (min-device-width: 482px) and (max-device-width: 767px) {
   #logo {
-    font-size: 3rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 /*# sourceMappingURL=style.css.map */

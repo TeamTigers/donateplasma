@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -9,6 +10,13 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Google Sans";
+}
+
+#logo {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  color: #1b73e8;
+  font-family: "Balsamiq Sans", cursive;
 }
 
 .menu {
@@ -86,5 +94,11 @@ ul .btn-flat {
 .icon {
   height: 60px;
   width: 60px;
+}
+
+.scrollable {
+  width: auto;
+  height: 50rem;
+  overflow-y: scroll;
 }
 /*# sourceMappingURL=style.css.map */

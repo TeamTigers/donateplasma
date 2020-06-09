@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 // GLOBAL COLOR
 $greenColor: #33691e;
 $redColor: #f50057;
@@ -13,6 +14,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Google Sans";
+}
+#logo {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  color: $baseColor;
+  font-family: "Balsamiq Sans", cursive;
 }
 .menu {
   color: $baseColor;
@@ -82,4 +89,10 @@ ul {
 .icon {
   height: 60px;
   width: 60px;
+}
+
+.scrollable {
+  width: auto;
+  height: 50rem;
+  overflow-y: scroll;
 }

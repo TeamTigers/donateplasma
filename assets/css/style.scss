@@ -71,6 +71,7 @@ ul {
     text-transform: none;
   }
 }
+
 #signin:hover {
   border-bottom: 2px solid $baseColor;
 }
@@ -87,12 +88,65 @@ ul {
 }
 
 .icon {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 
+thead {
+  color: #9a67f3;
+}
 .scrollable {
   width: auto;
   height: 50rem;
   overflow-y: scroll;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+.credentialCard {
+  margin-top: 10%;
+}
+
+.input-field input:focus + label {
+  color: rgb(0, 17, 255) !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid rgb(0, 17, 255) !important;
+  box-shadow: 0 1px 0 0 rgb(0, 17, 255) !important;
+}
+.input-field textarea:focus + label {
+  color: rgb(0, 17, 255) !important;
+}
+/* label underline focus color */
+.row .input-field textarea:focus {
+  border-bottom: 1px solid rgb(0, 17, 255) !important;
+  box-shadow: 0 1px 0 0 rgb(0, 17, 255) !important;
+}
+
+.btnRounded {
+  border-radius: 5px;
+}
+.btn {
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: none;
+}
+
+.title {
+  color: $baseColor;
+}
+
+.profileDlt {
+  background: #fff;
+  color: $redColor;
+  border: 1px solid $redColor;
+  font-weight: 600;
+  text-transform: none;
+
+  &:hover {
+    background: $redColor;
+    color: #fff;
+  }
 }

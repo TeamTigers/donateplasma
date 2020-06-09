@@ -53,12 +53,12 @@ a[href^="http"] {
   color: #ffffff;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding: 6px 4px;
-  height: 3.5rem;
-  width: 15rem;
+  padding: 4px 3px;
+  height: 3rem;
+  width: 12rem;
   text-align: center;
   text-transform: none;
-  font-size: 1.3em;
+  font-size: 1em;
   border-radius: 5px;
 }
 

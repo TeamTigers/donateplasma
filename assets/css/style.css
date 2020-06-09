@@ -11,6 +11,10 @@ body {
   font-family: "Google Sans";
 }
 
+.menu {
+  color: #1b73e8;
+}
+
 .section {
   height: 100vh;
 }
@@ -37,22 +41,23 @@ a[href^="http"] {
 }
 
 .donorBtn {
-  border: 1px solid #1b73e8;
-  color: #1b73e8;
+  background: #1b73e8;
+  color: #ffffff;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding: 5px;
+  padding: 6px 4px;
   height: 3.5rem;
   width: 15rem;
   text-align: center;
   text-transform: none;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border-radius: 5px;
 }
 
 .donorBtn:hover {
-  background: #1b73e8;
-  color: white;
+  border: 2px solid #1b73e8;
+  background: white;
+  color: #1b73e8;
 }
 
 ul .btn-flat {
@@ -67,5 +72,19 @@ ul .btn-flat {
 
 #register:hover {
   border-bottom: 2px solid #1b73e8;
+}
+
+#donor:hover {
+  border-bottom: 2px solid #1b73e8;
+}
+
+.donor {
+  color: #1b73e8;
+  border-bottom: 2px dotted #1b73e8;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
 }
 /*# sourceMappingURL=style.css.map */

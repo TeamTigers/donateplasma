@@ -14,6 +14,9 @@ body {
   box-sizing: border-box;
   font-family: "Google Sans";
 }
+.menu {
+  color: $baseColor;
+}
 .section {
   height: 100vh;
 }
@@ -35,21 +38,22 @@ a[href^="http"] {
   line-height: 2rem;
 }
 .donorBtn {
-  border: 1px solid $baseColor;
-  color: $baseColor;
+  background: $baseColor;
+  color: #ffffff;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding: 5px;
+  padding: 6px 4px;
   height: 3.5rem;
   width: 15rem;
   text-align: center;
   text-transform: none;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border-radius: 5px;
 
   &:hover {
-    background: $baseColor;
-    color: white;
+    border: 2px solid $baseColor;
+    background: white;
+    color: $baseColor;
   }
 }
 
@@ -65,4 +69,17 @@ ul {
 }
 #register:hover {
   border-bottom: 2px solid $baseColor;
+}
+#donor:hover {
+  border-bottom: 2px solid $baseColor;
+}
+
+.donor {
+  color: $baseColor;
+  border-bottom: 2px dotted $baseColor;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
 }

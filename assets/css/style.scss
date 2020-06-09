@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+// GLOBAL COLOR
+$greenColor: #33691e;
+$redColor: #f50057;
+$baseColor: #1b73e8;
+
+// BASE ELEMENTS
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans";
+}
+.section {
+  height: 100vh;
+}
+a[href^="http"] {
+  border-bottom: 1px solid;
+}
+#bannerText {
+  font-size: clamp(1rem, 15vw, 3rem);
+  font-family: "Righteous", cursive;
+
+  #plasma {
+    color: $redColor;
+  }
+  #life {
+    color: $greenColor;
+  }
+}
+#subBanner {
+  line-height: 2rem;
+}
+.donorBtn {
+  border: 1px solid $baseColor;
+  color: $baseColor;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 5px;
+  height: 3.5rem;
+  width: 15rem;
+  text-align: center;
+  text-transform: none;
+  font-size: 1.5em;
+  border-radius: 5px;
+
+  &:hover {
+    background: $baseColor;
+    color: white;
+  }
+}
+
+ul {
+  .btn-flat {
+    font-weight: 600;
+    color: $baseColor;
+    text-transform: none;
+  }
+}
+#signin:hover {
+  border-bottom: 2px solid $baseColor;
+}
+#register:hover {
+  border-bottom: 2px solid $baseColor;
+}

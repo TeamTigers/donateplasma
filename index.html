@@ -20,7 +20,9 @@
     <header>
       <nav class="nav-extended nav-fixed transparent z-depth-1">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo" id="logo">Donate Plasma</a>
+          <!-- <a href="index.html" class="brand-logo center" id="logo"
+            >Donate Plasma</a
+          > -->
           <a href="#" class="sidenav-trigger menu" data-target="mobile-nav">
             <i class="material-icons">menu</i>
           </a>
@@ -87,6 +89,19 @@
             <h3 class="donor">
               Donor List
             </h3>
+            <div class="row">
+              <div class="input-field col s12 m12 l4">
+                <i class="material-icons prefix indigo-text text-lighten-3"
+                  >search</i
+                >
+                <input
+                  id="search"
+                  type="text"
+                  placeholder="Search for any info..."
+                  autocomplete="off"
+                />
+              </div>
+            </div>
             <div class="scrollable">
               <table class="centered highlight">
                 <thead>
@@ -98,12 +113,12 @@
                   </tr>
                 </thead>
 
-                <tbody>
+                <tbody id="filter_info">
                   <tr>
                     <td>Alvin</td>
                     <td>Mirpur</td>
                     <td>A+</td>
-                    <td>01848934889</td>
+                    <td><a href="tel:08493209420">01848934889</a></td>
                   </tr>
                   <tr>
                     <td>Alvin</td>
@@ -112,7 +127,7 @@
                     <td>01848934889</td>
                   </tr>
                   <tr>
-                    <td>Alvin</td>
+                    <td>balid</td>
                     <td>Mirpur</td>
                     <td>A+</td>
                     <td>01848934889</td>

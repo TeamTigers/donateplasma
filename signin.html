@@ -63,9 +63,14 @@
                         id="mobile_number"
                         type="tel"
                         class="validate"
-                        pattern="[0][1][0-9]{9}"
+                        pattern="[0][1][356789][0-9]{8}"
                       />
                       <label for="mobile_number">Mobile Number</label>
+                      <span
+                        class="helper-text"
+                        data-error="Invalid number format"
+                        data-success="Valid number format"
+                      ></span>
                     </div>
                     <div class="input-field col s12">
                       <input id="password" type="password" class="validate" />

@@ -74,10 +74,15 @@
                         id="mobile_number"
                         type="tel"
                         class="validate"
-                        pattern="[0][1][0-9]{9}"
+                        pattern="[0][1][356789][0-9]{8}"
                         required
                       />
-                      <label for="phone_number">Phone Number*</label>
+                      <label for="mobile_number">Phone Number*</label>
+                      <span
+                        class="helper-text"
+                        data-error="Invalid number format"
+                        data-success="Valid number format"
+                      ></span>
                     </div>
                   </div>
                 </div>

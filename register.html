@@ -56,22 +56,30 @@
                   />
                 </div>
                 <div class="col s12 l7 m7">
-                  <form action="" method="post">
+                  <form action="" method="post" id="registrationForm">
                     <div class="input-field col s12">
                       <input
                         placeholder="01700000000"
                         id="mobile_number"
                         type="tel"
                         class="validate"
-                        pattern="[0][1][0-9]{9}"
+                        pattern="[0][1][356789][0-9]{8}"
+                        autocomplete="off"
                         required
                       />
                       <label for="mobile_number">Mobile Number</label>
+                      <span
+                        class="helper-text"
+                        data-error="Invalid number format"
+                        data-success="Valid number format"
+                      ></span>
                     </div>
                     <div class="input-field col s12">
                       <input
                         id="password"
+                        name="password"
                         type="password"
+                        data-rule-password="true"
                         class="validate"
                         required
                       />
@@ -80,11 +88,19 @@
                     <div class="input-field col s12">
                       <input
                         id="confirmPassword"
+                        name="confirmPassword"
                         type="password"
+                        data-rule-password="true"
+                        data-rule-equalTo="#password"
                         class="validate"
                         required
                       />
                       <label for="confirmPassword">Confirm Password</label>
+                      <span
+                        class="helper-text"
+                        data-error="Password not match"
+                        data-success="Password match"
+                      ></span>
                     </div>
                     <div class="center-align">
                       <button

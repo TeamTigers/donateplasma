@@ -79,11 +79,17 @@
                         id="password"
                         name="password"
                         type="password"
+                        minlength="6"
                         data-rule-password="true"
                         class="validate"
                         required
                       />
                       <label for="password">Password</label>
+                      <span
+                        class="helper-text"
+                        data-error="At least 6 characters"
+                        data-success="Valid"
+                      ></span>
                     </div>
                     <div class="input-field col s12">
                       <input

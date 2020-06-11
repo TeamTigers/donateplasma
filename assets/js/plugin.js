@@ -10,7 +10,7 @@ $(function () {
     });
   });
 
-  //  PASSWORD CONFIRMATION
+  // PHONE NUMBER FORMATTER
 
   $("#password").on("focusout", function (e) {
     if ($(this).val() != $("#confirmPassword").val()) {

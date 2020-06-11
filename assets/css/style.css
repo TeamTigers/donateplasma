@@ -55,17 +55,11 @@ a[href^="http"] {
   margin-bottom: 2rem;
   padding: 4px 3px;
   height: 3rem;
-  width: 12rem;
+  width: 10rem;
   text-align: center;
   text-transform: none;
   font-size: 1em;
   border-radius: 5px;
-}
-
-.donorBtn:hover {
-  border: 2px solid #1b73e8;
-  background: white;
-  color: #1b73e8;
 }
 
 ul .btn-flat {
@@ -161,6 +155,26 @@ thead {
 .profileDlt:hover {
   background: #f50057;
   color: #fff;
+}
+
+.available {
+  color: #33691e;
+}
+
+.unavailable {
+  color: #f50057;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #1b73e8;
+}
+
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #1b73e8;
+}
+
+.switch {
+  margin-left: 12px;
 }
 
 @media only screen and (max-width: 540px) {

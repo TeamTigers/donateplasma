@@ -1,6 +1,8 @@
 $(function () {
   $(".sidenav").sidenav();
   $("select").formSelect();
+  $(".tabs").tabs();
+  $("textarea#share_story").characterCounter();
 
   // SEACH IN THE TABLE
   $("#search").on("keyup", function () {

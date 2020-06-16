@@ -157,10 +157,6 @@ thead {
 .credentialCard {
   margin-top: 10%;
 }
-.cardHorizontal {
-  display: flex;
-  flex-wrap: nowrap;
-}
 .input-field input:focus + label {
   color: rgb(0, 17, 255) !important;
 }
@@ -257,37 +253,6 @@ thead {
   background-color: #3754e7ee;
 }
 
-.cards-container {
-  column-rule-style: avoid;
-}
-.cards-container {
-  .card {
-    display: inline-block;
-    overflow: visible;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .cards-container {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-}
-@media only screen and (min-width: 601px) {
-  .cards-container {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-}
-@media only screen and (min-width: 993px) {
-  .cards-container {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-  }
-}
 @media only screen and (max-width: 540px) {
   .custom-scrollbar {
     height: 100%;

@@ -150,7 +150,9 @@ thead {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
+.register-img {
+  margin-top: 15%;
+}
 .rounded {
   border-radius: 10px;
 }
@@ -194,6 +196,9 @@ thead {
 .title {
   color: $baseColor;
   font-size: 2.5em;
+}
+.subTitle {
+  color: $baseColor;
 }
 
 .profileDlt {

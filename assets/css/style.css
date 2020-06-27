@@ -160,6 +160,10 @@ thead {
           transform-origin: bottom left;
 }
 
+.register-img {
+  margin-top: 15%;
+}
+
 .rounded {
   border-radius: 10px;
 }
@@ -214,6 +218,10 @@ thead {
 .title {
   color: #1b73e8;
   font-size: 2.5em;
+}
+
+.subTitle {
+  color: #1b73e8;
 }
 
 .profileDlt {

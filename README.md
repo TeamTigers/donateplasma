@@ -34,15 +34,19 @@ The patients who need a donor just come to our site and look for a donor randoml
 
 ## Screenshots & gif
 
-|            Home Page            |            Donor             |            Register             |
-| :-----------------------------: | :--------------------------: | :-----------------------------: |
-| ![Homepage](assets/img/ss1.png) | ![Donor](assets/img/ss2.png) | ![Register](assets/img/ss3.png) |
+|            Home Page            |            Donor             |
+| :-----------------------------: | :--------------------------: |
+| ![Homepage](assets/img/ss1.png) | ![Donor](assets/img/ss2.png) |
 
 
-|              Login              |           Profile            |           Share Story           |
-| :-----------------------------: | :--------------------------: | :-----------------------------: |
-| ![Homepage](assets/img/ss4.png) | ![Donor](assets/img/ss5.png) | ![Register](assets/img/ss6.png) |
+|            Register             |            Login             |
+| :-----------------------------: | :--------------------------: |
+| ![Register](assets/img/ss3.png) | ![Login](assets/img/ss4.png) |
 
+
+|           Profile            |           Share Story           |
+| :--------------------------: | :-----------------------------: |
+| ![Donor](assets/img/ss5.png) | ![Register](assets/img/ss6.png) |
 
 |                 Gif                 |
 | :---------------------------------: |

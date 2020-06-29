@@ -38,11 +38,9 @@ The patients who need a donor just come to our site and look for a donor randoml
 | :-----------------------------: | :--------------------------: |
 | ![Homepage](assets/img/ss1.png) | ![Donor](assets/img/ss2.png) |
 
-
 |            Register             |            Login             |
 | :-----------------------------: | :--------------------------: |
 | ![Register](assets/img/ss3.png) | ![Login](assets/img/ss4.png) |
-
 
 |           Profile            |           Share Story           |
 | :--------------------------: | :-----------------------------: |
@@ -51,5 +49,18 @@ The patients who need a donor just come to our site and look for a donor randoml
 |                 Gif                 |
 | :---------------------------------: |
 | ![Gif](assets/img/donateplasma.gif) |
+
+## Contributors
+
+<table>
+  <tr>
+   <td align="center"><a href="http://facebook.com/shunjid"><img src="https://avatars2.githubusercontent.com/u/29749035?v=4" width="100px;" alt=""/><br /><sub><b>Shunjid Rahman Showrov</b></sub></a><br /><a href="#" title="Ideas">🤩</a><a href="#" title="Code">💻</a></td>
+    <td align="center"><a href="http://facebook.com/zubayerhimel"><img src="https://avatars0.githubusercontent.com/u/29758443?v=4" width="100px;" alt=""/><br /><sub><b>Zubayer Himel</b></sub></a><br /><a href="#" title="Planning & Feedback">🤔</a><a href="#" title="Wireframing">🦴</a><a href="#" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.facebook.com/hm.sheble"><img src="https://avatars1.githubusercontent.com/u/62396798?v=4" width="100px;" alt=""/><br /><sub><b>Abu-Sufian Shibli</b></sub></a><br /><a href="#" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.facebook.com/shahfahad.hossain"><img src="https://avatars1.githubusercontent.com/u/29758456?v=4" width="100px;" alt=""/><br /><sub><b>Shah Fahad Hossain</b></sub></a><br /><a href="#" title="Script writer for video">📝</a></td>
+    <td align="center"><a href="https://www.facebook.com/nadianasrin80"><img src="https://avatars1.githubusercontent.com/u/36202028?v=4" width="100px;" alt=""/><br /><sub><b>Nadia Nasrin</b></sub></a><br /><a href="#" title="Voice for video">🎙️</a></td>
+
+  </tr>
+  </table>
 
 ## If you like our work please show your support by giving a :star: in our repository. It helps to motivate ourselves and do awesome work.
